@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47601DB71D175DD000B07002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47601DB61D175DD000B07002 /* AppDelegate.swift */; };
+		47601DB91D175DD000B07002 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47601DB81D175DD000B07002 /* GameScene.swift */; };
+		47601DBB1D175DD000B07002 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 47601DBA1D175DD000B07002 /* GameScene.sks */; };
+		47601DBD1D175DD000B07002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47601DBC1D175DD000B07002 /* Assets.xcassets */; };
+		47601DC01D175DD000B07002 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47601DBE1D175DD000B07002 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47601DB31D175DD000B07002 /* 02-bouncingball_vectors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-bouncingball_vectors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47601DB61D175DD000B07002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47601DB81D175DD000B07002 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		47601DBA1D175DD000B07002 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		47601DBC1D175DD000B07002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47601DBF1D175DD000B07002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		47601DC11D175DD000B07002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47601DB01D175DD000B07002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47601DAA1D175DD000B07002 = {
+			isa = PBXGroup;
+			children = (
+				47601DB51D175DD000B07002 /* 02-bouncingball_vectors */,
+				47601DB41D175DD000B07002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47601DB41D175DD000B07002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47601DB31D175DD000B07002 /* 02-bouncingball_vectors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47601DB51D175DD000B07002 /* 02-bouncingball_vectors */ = {
+			isa = PBXGroup;
+			children = (
+				47601DB61D175DD000B07002 /* AppDelegate.swift */,
+				47601DB81D175DD000B07002 /* GameScene.swift */,
+				47601DBA1D175DD000B07002 /* GameScene.sks */,
+				47601DBC1D175DD000B07002 /* Assets.xcassets */,
+				47601DBE1D175DD000B07002 /* MainMenu.xib */,
+				47601DC11D175DD000B07002 /* Info.plist */,
+			);
+			path = "02-bouncingball_vectors";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47601DB21D175DD000B07002 /* 02-bouncingball_vectors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47601DC41D175DD000B07002 /* Build configuration list for PBXNativeTarget "02-bouncingball_vectors" */;
+			buildPhases = (
+				47601DAF1D175DD000B07002 /* Sources */,
+				47601DB01D175DD000B07002 /* Frameworks */,
+				47601DB11D175DD000B07002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-bouncingball_vectors";
+			productName = "02-bouncingball_vectors";
+			productReference = 47601DB31D175DD000B07002 /* 02-bouncingball_vectors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47601DAB1D175DD000B07002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Reed Tothong";
+				TargetAttributes = {
+					47601DB21D175DD000B07002 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 47601DAE1D175DD000B07002 /* Build configuration list for PBXProject "02-bouncingball_vectors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47601DAA1D175DD000B07002;
+			productRefGroup = 47601DB41D175DD000B07002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47601DB21D175DD000B07002 /* 02-bouncingball_vectors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47601DB11D175DD000B07002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47601DBD1D175DD000B07002 /* Assets.xcassets in Resources */,
+				47601DBB1D175DD000B07002 /* GameScene.sks in Resources */,
+				47601DC01D175DD000B07002 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47601DAF1D175DD000B07002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47601DB91D175DD000B07002 /* GameScene.swift in Sources */,
+				47601DB71D175DD000B07002 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47601DBE1D175DD000B07002 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47601DBF1D175DD000B07002 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47601DC21D175DD000B07002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47601DC31D175DD000B07002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		47601DC51D175DD000B07002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "02-bouncingball_vectors/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firmread.-2-bouncingball-vectors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47601DC61D175DD000B07002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "02-bouncingball_vectors/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.firmread.-2-bouncingball-vectors";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47601DAE1D175DD000B07002 /* Build configuration list for PBXProject "02-bouncingball_vectors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47601DC21D175DD000B07002 /* Debug */,
+				47601DC31D175DD000B07002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47601DC41D175DD000B07002 /* Build configuration list for PBXNativeTarget "02-bouncingball_vectors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47601DC51D175DD000B07002 /* Debug */,
+				47601DC61D175DD000B07002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47601DAB1D175DD000B07002 /* Project object */;
+}
